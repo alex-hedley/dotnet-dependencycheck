@@ -46,6 +46,9 @@ jobs:
       #   with:
       #     xunit_files: 'src/**/TestResults/**/coverage.cobertura.xml'
       
+      - name: Check vulnerable packages
+        run: dotnet list package --vulnerable
+
       - name: Depcheck
         uses: dependency-check/Dependency-Check_Action@main
         id: Depcheck

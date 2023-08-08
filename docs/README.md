@@ -1,5 +1,7 @@
 # Docs
 
+- [CVE](CVE.md)
+
 - [Setup](SETUP.md)
 - [Notes](NOTES.md)
 
