@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+    <suppress>
+        <notes><![CDATA[
+        file name: Microsoft.Win32.SystemEvents.dll
+        ]]></notes>
+        <packageUrl regex="true">^pkg:generic/Microsoft\.Win32\.SystemEvents@.*$</packageUrl>
+        <cpe>cpe:/a:microsoft:.net_core</cpe>
+    </suppress>
+</suppressions>
