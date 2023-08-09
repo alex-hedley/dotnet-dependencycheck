@@ -39,3 +39,43 @@ Then copy the suppress content from the popup in the report.
 ## Links
 
 - [ADO](https://github.com/dependency-check/azuredevops/)
+
+### Vulnerable
+
+`dotnet list package --vulnerable`
+
+```bash
+dotnet list package --vulnerable --include-transitive 2>&1 | tee vuln.log
+        echo "Analyze dotnet list package..."
+        ! grep -q -i "has the following vulnerable packages" vuln.log
+```
+
+- https://github.com/actions/github-script
+
+Add a **comment**.
+
+```yml
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '👋 Thanks for reporting!'
+            })
+```
+
+If any found add a **label**?
+
+```yml
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['CVE']
+            })
+```

@@ -22,3 +22,5 @@
 ## Docs
 
 - [docs](docs/README.md)
+
+I've written a [blog post](https://alex-hedley.github.io/blog/posts/dependencycheck-dotnet) on the subject.

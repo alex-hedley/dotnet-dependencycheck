@@ -12,3 +12,13 @@ KRIS - THE CODING UNICORN
 
 > Security scanning of third-party dependencies with OWASP Dependency Check
 > This blog post explains why it's important to scan third-party dependencies for known security vulnerabilities and how this can be done with OWASP Dependency Check tool
+
+---
+
+.NET Outdated
+
+https://github.com/dotnet-outdated/dotnet-outdated
+
+`dotnet tool install --global dotnet-outdated-tool`
+
+`dotnet outdated`
