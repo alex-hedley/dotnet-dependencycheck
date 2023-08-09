@@ -43,6 +43,8 @@ Regular expression denial of service in jquery-validation
 
 CVE-2021-43306 - ⬜️ Low severity
 
+- https://github.com/advisories/GHSA-j9m2-h2pv-wvph
+
 jQuery.Validation
 
 Packages:

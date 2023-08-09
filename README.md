@@ -9,6 +9,7 @@
 [![pages-build-deployment](https://github.com/alex-hedley/dotnet-dependencycheck/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/alex-hedley/dotnet-dependencycheck/actions/workflows/pages/pages-build-deployment)
 
 - [DependencyCheck](https://jeremylong.github.io/DependencyCheck) Jeremy Long
+  - [GitHub](https://github.com/jeremylong/DependencyCheck)
 
 ## Reports
 
