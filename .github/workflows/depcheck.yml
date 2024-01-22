@@ -67,7 +67,7 @@ jobs:
             --suppression ./src/dependency-suppression.xml
       
       - name: ⬆️ Upload Test results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
            name: Depcheck report
            path: ${{github.workspace}}/reports
